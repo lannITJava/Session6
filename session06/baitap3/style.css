@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: rgb(236, 231, 224);
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.book-one,
+.book-two,
+.book-three,
+.book-four,
+.book-five,
+.book-six{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+   
+}
+.book-one>img,
+.book-two>img,
+.book-three>img,
+.book-four>img,
+.book-five>img,
+.book-six>img{
+    padding-left: 7px;
+    padding-top: 20px;
+}
+.book-one>h3,
+.book-two>h3,
+.book-three>h3,
+.book-four>h3,
+.book-five>h3,
+.book-six>h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.book-one>p,
+.book-two>p,
+.book-three>p,
+.book-four>p,
+.book-five>p,
+.book-six>p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.book-one>button,
+.book-two>button,
+.book-three>button,
+.book-four>button,
+.book-five>button,
+.book-six>button{
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 420px) {
+    .container{
+        width: 410px;
+        height: 1200px;
+        margin: 10px auto;
+        background-color: rgb(236, 231, 224);
+    }
+}
